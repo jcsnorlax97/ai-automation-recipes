@@ -1,0 +1,22 @@
+# Local runtime state
+.env
+.env.*
+*.local
+*.secret
+
+# Do not commit live Codex automation configs
+automation.toml
+automations/
+.codex/
+
+# Do not commit generated work-log data
+ai-work-logs/
+inbox/
+generated/
+*.jsonl
+*.log
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

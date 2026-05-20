@@ -1,0 +1,16 @@
+# Redacted example only. Do not use this as a live config without review.
+# Do not commit target_thread_id or local private paths.
+
+version = 1
+id = "ai-reel"
+kind = "heartbeat"
+name = "Daily AI Reel Pain Point Digest"
+status = "ACTIVE"
+rrule = "FREQ=DAILY;BYHOUR=8;BYMINUTE=0;BYSECOND=0"
+prompt = """
+Use the prompt from prompt.md.
+
+Replace placeholders before installing:
+- <account-handle>
+- <automation-id>
+"""
