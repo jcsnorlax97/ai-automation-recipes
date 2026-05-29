@@ -18,6 +18,13 @@ roadmap decisions, read:
 Use that roadmap as the current source of truth for how automation recipes fit
 into the Personal AI Operating System.
 
+Before cross-repo AI OS work, run the central freshness check from the standard
+sibling repo:
+
+```text
+../ai-ops-ecosystem-spec/scripts/check-ecosystem-repos.sh --fetch
+```
+
 ## Repo Boundary
 
 - This repo owns shareable, redacted automation recipes and output contracts.
